@@ -491,7 +491,7 @@ class Stock:
             messagebox.showerror("Error","Not all field filled",parent=self.root)
         else:
             try:
-                days = int(self.var_Days.get())  # Corrected from self.var_DDays
+                days = int(self.var_Days.get())  
                 today = date.today()
                 d1 = today.strftime("%Y-%m-%d")
                 end_date = d1
